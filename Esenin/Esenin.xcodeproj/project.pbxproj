@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F273782219AC9CA004CE0BA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F273781219AC9CA004CE0BA /* Media.xcassets */; };
+		6F2772292186D1B3004F715B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2772282186D1B3004F715B /* CategoryViewController.swift */; };
+		6F27722B2186E767004F715B /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F27722A2186E767004F715B /* FavoritesTableViewController.swift */; };
+		6F27722E21873030004F715B /* Esenin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F27722C21873030004F715B /* Esenin.xcdatamodeld */; };
+		6F2B5B7E217DCC9E00DD225C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B5B7D217DCC9E00DD225C /* CategoryTableViewController.swift */; };
+		6F2B5B88217DEB0300DD225C /* TitleCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B5B87217DEB0300DD225C /* TitleCategoryViewController.swift */; };
+		6F411B0A21885AFE003F55C1 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F411B0921885AFE003F55C1 /* FavoritesViewController.swift */; };
+		6F46B89121947957002B5E14 /* AboutMoskowTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8342194794D002B5E14 /* AboutMoskowTitle.txt */; };
+		6F46B89221947957002B5E14 /* AboutWarTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8352194794D002B5E14 /* AboutWarTitle.txt */; };
+		6F46B89321947957002B5E14 /* AboutWinterBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8362194794D002B5E14 /* AboutWinterBody.txt */; };
+		6F46B89421947957002B5E14 /* AboutFriendshipDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8372194794D002B5E14 /* AboutFriendshipDesc.txt */; };
+		6F46B89521947957002B5E14 /* AboutDeathBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8382194794E002B5E14 /* AboutDeathBody.txt */; };
+		6F46B89621947957002B5E14 /* AboutAlcoholBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8392194794E002B5E14 /* AboutAlcoholBody.txt */; };
+		6F46B89721947957002B5E14 /* AboutMoskowDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B83A2194794E002B5E14 /* AboutMoskowDesc.txt */; };
+		6F46B89921947957002B5E14 /* AboutMotherTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B83C2194794E002B5E14 /* AboutMotherTitle.txt */; };
+		6F46B89A21947957002B5E14 /* AboutRyazanBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B83D2194794E002B5E14 /* AboutRyazanBody.txt */; };
+		6F46B89B21947957002B5E14 /* AboutMotherBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B83E2194794E002B5E14 /* AboutMotherBody.txt */; };
+		6F46B89C21947957002B5E14 /* AboutMoskowBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B83F2194794E002B5E14 /* AboutMoskowBody.txt */; };
+		6F46B89D21947957002B5E14 /* AboutSadnessBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8402194794E002B5E14 /* AboutSadnessBody.txt */; };
+		6F46B89E21947957002B5E14 /* AboutDeathDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8412194794F002B5E14 /* AboutDeathDesc.txt */; };
+		6F46B89F21947957002B5E14 /* AboutAnimalsDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8422194794F002B5E14 /* AboutAnimalsDesc.txt */; };
+		6F46B8A021947957002B5E14 /* AboutPowerBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8432194794F002B5E14 /* AboutPowerBody.txt */; };
+		6F46B8A121947957002B5E14 /* AboutSpringDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8442194794F002B5E14 /* AboutSpringDesc.txt */; };
+		6F46B8A221947957002B5E14 /* AboutKonstontinovoTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8452194794F002B5E14 /* AboutKonstontinovoTitle.txt */; };
+		6F46B8A321947957002B5E14 /* SadDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8462194794F002B5E14 /* SadDesc.txt */; };
+		6F46B8A421947957002B5E14 /* AboutAutumnDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8472194794F002B5E14 /* AboutAutumnDesc.txt */; };
+		6F46B8A521947957002B5E14 /* AboutPartingTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8482194794F002B5E14 /* AboutPartingTitle.txt */; };
+		6F46B8A621947957002B5E14 /* AboutSadnessDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B8492194794F002B5E14 /* AboutSadnessDesc.txt */; };
+		6F46B8A721947957002B5E14 /* AboutWarDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B84A2194794F002B5E14 /* AboutWarDesc.txt */; };
+		6F46B8A821947957002B5E14 /* PhilosophDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B84B21947950002B5E14 /* PhilosophDesc.txt */; };
+		6F46B8A921947957002B5E14 /* AboutAnimalsBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B84C21947950002B5E14 /* AboutAnimalsBody.txt */; };
+		6F46B8AA21947957002B5E14 /* AboutSpringBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B84D21947950002B5E14 /* AboutSpringBody.txt */; };
+		6F46B8AB21947957002B5E14 /* AboutPiterBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B84E21947950002B5E14 /* AboutPiterBody.txt */; };
+		6F46B8AC21947957002B5E14 /* BestTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B84F21947950002B5E14 /* BestTitle.txt */; };
+		6F46B8AD21947957002B5E14 /* AboutPartingBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85021947950002B5E14 /* AboutPartingBody.txt */; };
+		6F46B8AE21947957002B5E14 /* AboutAutumnTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85121947950002B5E14 /* AboutAutumnTitle.txt */; };
+		6F46B8AF21947957002B5E14 /* PhilosophTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85221947950002B5E14 /* PhilosophTitle.txt */; };
+		6F46B8B021947957002B5E14 /* AboutHappinessDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85321947950002B5E14 /* AboutHappinessDesc.txt */; };
+		6F46B8B121947957002B5E14 /* AboutLiveDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85421947950002B5E14 /* AboutLiveDesc.txt */; };
+		6F46B8B221947957002B5E14 /* AboutAlcoholTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85521947951002B5E14 /* AboutAlcoholTitle.txt */; };
+		6F46B8B321947957002B5E14 /* AboutFriendshipTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85621947951002B5E14 /* AboutFriendshipTitle.txt */; };
+		6F46B8B421947957002B5E14 /* AboutFriendshipBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85721947951002B5E14 /* AboutFriendshipBody.txt */; };
+		6F46B8B521947957002B5E14 /* AboutLonelinessDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85821947951002B5E14 /* AboutLonelinessDesc.txt */; };
+		6F46B8B621947957002B5E14 /* AboutPartingDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85921947951002B5E14 /* AboutPartingDesc.txt */; };
+		6F46B8B721947957002B5E14 /* AboutRusDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85A21947951002B5E14 /* AboutRusDesc.txt */; };
+		6F46B8B821947957002B5E14 /* AboutRusTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85B21947951002B5E14 /* AboutRusTitle.txt */; };
+		6F46B8B921947957002B5E14 /* AboutSoulTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85C21947951002B5E14 /* AboutSoulTitle.txt */; };
+		6F46B8BA21947957002B5E14 /* AboutSpringTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85D21947951002B5E14 /* AboutSpringTitle.txt */; };
+		6F46B8BB21947957002B5E14 /* AboutVillageBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85E21947951002B5E14 /* AboutVillageBody.txt */; };
+		6F46B8BC21947957002B5E14 /* AboutKonstontinovoBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B85F21947952002B5E14 /* AboutKonstontinovoBody.txt */; };
+		6F46B8BD21947957002B5E14 /* AboutAlcoholDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86021947952002B5E14 /* AboutAlcoholDesc.txt */; };
+		6F46B8BE21947957002B5E14 /* SadBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86121947952002B5E14 /* SadBody.txt */; };
+		6F46B8BF21947957002B5E14 /* AboutPowerDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86221947952002B5E14 /* AboutPowerDesc.txt */; };
+		6F46B8C021947957002B5E14 /* AboutMotherDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86321947952002B5E14 /* AboutMotherDesc.txt */; };
+		6F46B8C121947957002B5E14 /* AboutNatureBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86421947952002B5E14 /* AboutNatureBody.txt */; };
+		6F46B8C221947957002B5E14 /* AboutLonelinessTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86521947952002B5E14 /* AboutLonelinessTitle.txt */; };
+		6F46B8C321947957002B5E14 /* AboutPiterDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86621947952002B5E14 /* AboutPiterDesc.txt */; };
+		6F46B8C421947957002B5E14 /* AboutPowerTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86721947952002B5E14 /* AboutPowerTitle.txt */; };
+		6F46B8C521947957002B5E14 /* AboutRusBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86821947953002B5E14 /* AboutRusBody.txt */; };
+		6F46B8C621947957002B5E14 /* AboutHouseTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86921947953002B5E14 /* AboutHouseTitle.txt */; };
+		6F46B8C721947957002B5E14 /* AboutWinterDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86A21947953002B5E14 /* AboutWinterDesc.txt */; };
+		6F46B8C821947957002B5E14 /* AboutGotDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86B21947953002B5E14 /* AboutGotDesc.txt */; };
+		6F46B8C921947957002B5E14 /* AboutLonelinessBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86C21947953002B5E14 /* AboutLonelinessBody.txt */; };
+		6F46B8CA21947957002B5E14 /* AboutSummerTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86D21947953002B5E14 /* AboutSummerTitle.txt */; };
+		6F46B8CB21947957002B5E14 /* BestBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86E21947953002B5E14 /* BestBody.txt */; };
+		6F46B8CC21947957002B5E14 /* AboutPiterTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B86F21947953002B5E14 /* AboutPiterTitle.txt */; };
+		6F46B8CD21947957002B5E14 /* AboutWarBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87021947953002B5E14 /* AboutWarBody.txt */; };
+		6F46B8CF21947957002B5E14 /* AboutHouseBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87221947953002B5E14 /* AboutHouseBody.txt */; };
+		6F46B8D021947957002B5E14 /* AboutAutumnBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87321947954002B5E14 /* AboutAutumnBody.txt */; };
+		6F46B8D121947957002B5E14 /* AboutNatureDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87421947954002B5E14 /* AboutNatureDesc.txt */; };
+		6F46B8D221947957002B5E14 /* AboutLiveTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87521947954002B5E14 /* AboutLiveTitle.txt */; };
+		6F46B8D321947957002B5E14 /* AboutSoulBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87621947954002B5E14 /* AboutSoulBody.txt */; };
+		6F46B8D421947957002B5E14 /* AboutVillageTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87721947954002B5E14 /* AboutVillageTitle.txt */; };
+		6F46B8D521947957002B5E14 /* BestDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87821947954002B5E14 /* BestDesc.txt */; };
+		6F46B8D621947957002B5E14 /* AboutAnimalsTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87921947954002B5E14 /* AboutAnimalsTitle.txt */; };
+		6F46B8D721947957002B5E14 /* AboutRyazanDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87A21947954002B5E14 /* AboutRyazanDesc.txt */; };
+		6F46B8D821947957002B5E14 /* AboutDeathTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87B21947954002B5E14 /* AboutDeathTitle.txt */; };
+		6F46B8D921947957002B5E14 /* HuliganDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87C21947954002B5E14 /* HuliganDesc.txt */; };
+		6F46B8DA21947957002B5E14 /* HuliganTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87D21947955002B5E14 /* HuliganTitle.txt */; };
+		6F46B8DB21947957002B5E14 /* AboutWinterTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87E21947955002B5E14 /* AboutWinterTitle.txt */; };
+		6F46B8DC21947957002B5E14 /* AboutSadnessTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B87F21947955002B5E14 /* AboutSadnessTitle.txt */; };
+		6F46B8DD21947957002B5E14 /* AboutSummerBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88021947955002B5E14 /* AboutSummerBody.txt */; };
+		6F46B8DE21947957002B5E14 /* AboutHappinessTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88121947955002B5E14 /* AboutHappinessTitle.txt */; };
+		6F46B8E021947957002B5E14 /* PhilosophBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88321947955002B5E14 /* PhilosophBody.txt */; };
+		6F46B8E121947957002B5E14 /* AboutHouseDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88421947955002B5E14 /* AboutHouseDesc.txt */; };
+		6F46B8E221947957002B5E14 /* AboutRyazanTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88521947955002B5E14 /* AboutRyazanTitle.txt */; };
+		6F46B8E321947957002B5E14 /* AboutSummerDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88621947955002B5E14 /* AboutSummerDesc.txt */; };
+		6F46B8E421947957002B5E14 /* AboutKonstontinovoDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88721947955002B5E14 /* AboutKonstontinovoDesc.txt */; };
+		6F46B8E521947957002B5E14 /* AboutVillageDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88821947956002B5E14 /* AboutVillageDesc.txt */; };
+		6F46B8E621947957002B5E14 /* SadTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88921947956002B5E14 /* SadTitle.txt */; };
+		6F46B8E721947957002B5E14 /* AboutLiveBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88A21947956002B5E14 /* AboutLiveBody.txt */; };
+		6F46B8E821947957002B5E14 /* AboutSoulDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88B21947956002B5E14 /* AboutSoulDesc.txt */; };
+		6F46B8E921947957002B5E14 /* AboutNatureTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88C21947956002B5E14 /* AboutNatureTitle.txt */; };
+		6F46B8EA21947957002B5E14 /* AboutHappinessBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88D21947956002B5E14 /* AboutHappinessBody.txt */; };
+		6F46B8EB21947957002B5E14 /* AboutGotTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88E21947956002B5E14 /* AboutGotTitle.txt */; };
+		6F46B8EC21947957002B5E14 /* HuliganBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B88F21947956002B5E14 /* HuliganBody.txt */; };
+		6F46B8ED21947957002B5E14 /* AboutGotBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F46B89021947956002B5E14 /* AboutGotBody.txt */; };
+		6F7D3DDE217867EF0063A1BE /* ReadFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D3DDD217867EF0063A1BE /* ReadFromFile.swift */; };
+		6F7D3DE9217872470063A1BE /* AllPoemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D3DE8217872470063A1BE /* AllPoemsViewController.swift */; };
+		6F99A90721A7F41E003D3B9B /* PoemItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F99A90621A7F41E003D3B9B /* PoemItems.swift */; };
+		6FB7DFF8216F6CFD0039E8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7DFF7216F6CFD0039E8CC /* AppDelegate.swift */; };
+		6FB7DFFA216F6CFD0039E8CC /* AllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7DFF9216F6CFD0039E8CC /* AllTableViewController.swift */; };
+		6FB7DFFD216F6CFD0039E8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7DFFB216F6CFD0039E8CC /* Main.storyboard */; };
+		6FB7E005216F6CFF0039E8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7E003216F6CFF0039E8CC /* LaunchScreen.storyboard */; };
+		6FCF2664219563C500BA3D9B /* AboutLoveDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF2661219563C400BA3D9B /* AboutLoveDesc.txt */; };
+		6FCF2665219563C500BA3D9B /* AboutLoveBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF2662219563C500BA3D9B /* AboutLoveBody.txt */; };
+		6FCF2666219563C500BA3D9B /* AboutLoveTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF2663219563C500BA3D9B /* AboutLoveTitle.txt */; };
+		6FF8675521A3E37800BE8039 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8675421A3E37800BE8039 /* Constants.swift */; };
+		6FFB45102195CF0F00532344 /* AllTitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB450D2195CF0E00532344 /* AllTitle.txt */; };
+		6FFB45112195CF0F00532344 /* AllDesc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB450E2195CF0F00532344 /* AllDesc.txt */; };
+		6FFB45122195CF0F00532344 /* AllBody.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB450F2195CF0F00532344 /* AllBody.txt */; };
+		6FFF464E219968C40071A2CF /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFF464D219968C40071A2CF /* SearchTableViewController.swift */; };
+		6FFF46502199757A0071A2CF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFF464F2199757A0071A2CF /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F273781219AC9CA004CE0BA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6F2772282186D1B3004F715B /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		6F27722A2186E767004F715B /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		6F27722D21873030004F715B /* Esenin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Esenin.xcdatamodel; sourceTree = "<group>"; };
+		6F2B5B7D217DCC9E00DD225C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		6F2B5B87217DEB0300DD225C /* TitleCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCategoryViewController.swift; sourceTree = "<group>"; };
+		6F411B0921885AFE003F55C1 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		6F46B8342194794D002B5E14 /* AboutMoskowTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutMoskowTitle.txt; sourceTree = "<group>"; };
+		6F46B8352194794D002B5E14 /* AboutWarTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutWarTitle.txt; sourceTree = "<group>"; };
+		6F46B8362194794D002B5E14 /* AboutWinterBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutWinterBody.txt; sourceTree = "<group>"; };
+		6F46B8372194794D002B5E14 /* AboutFriendshipDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutFriendshipDesc.txt; sourceTree = "<group>"; };
+		6F46B8382194794E002B5E14 /* AboutDeathBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutDeathBody.txt; sourceTree = "<group>"; };
+		6F46B8392194794E002B5E14 /* AboutAlcoholBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAlcoholBody.txt; sourceTree = "<group>"; };
+		6F46B83A2194794E002B5E14 /* AboutMoskowDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutMoskowDesc.txt; sourceTree = "<group>"; };
+		6F46B83C2194794E002B5E14 /* AboutMotherTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutMotherTitle.txt; sourceTree = "<group>"; };
+		6F46B83D2194794E002B5E14 /* AboutRyazanBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutRyazanBody.txt; sourceTree = "<group>"; };
+		6F46B83E2194794E002B5E14 /* AboutMotherBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutMotherBody.txt; sourceTree = "<group>"; };
+		6F46B83F2194794E002B5E14 /* AboutMoskowBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutMoskowBody.txt; sourceTree = "<group>"; };
+		6F46B8402194794E002B5E14 /* AboutSadnessBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSadnessBody.txt; sourceTree = "<group>"; };
+		6F46B8412194794F002B5E14 /* AboutDeathDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutDeathDesc.txt; sourceTree = "<group>"; };
+		6F46B8422194794F002B5E14 /* AboutAnimalsDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAnimalsDesc.txt; sourceTree = "<group>"; };
+		6F46B8432194794F002B5E14 /* AboutPowerBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPowerBody.txt; sourceTree = "<group>"; };
+		6F46B8442194794F002B5E14 /* AboutSpringDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSpringDesc.txt; sourceTree = "<group>"; };
+		6F46B8452194794F002B5E14 /* AboutKonstontinovoTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutKonstontinovoTitle.txt; sourceTree = "<group>"; };
+		6F46B8462194794F002B5E14 /* SadDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SadDesc.txt; sourceTree = "<group>"; };
+		6F46B8472194794F002B5E14 /* AboutAutumnDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAutumnDesc.txt; sourceTree = "<group>"; };
+		6F46B8482194794F002B5E14 /* AboutPartingTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPartingTitle.txt; sourceTree = "<group>"; };
+		6F46B8492194794F002B5E14 /* AboutSadnessDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSadnessDesc.txt; sourceTree = "<group>"; };
+		6F46B84A2194794F002B5E14 /* AboutWarDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutWarDesc.txt; sourceTree = "<group>"; };
+		6F46B84B21947950002B5E14 /* PhilosophDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PhilosophDesc.txt; sourceTree = "<group>"; };
+		6F46B84C21947950002B5E14 /* AboutAnimalsBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAnimalsBody.txt; sourceTree = "<group>"; };
+		6F46B84D21947950002B5E14 /* AboutSpringBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSpringBody.txt; sourceTree = "<group>"; };
+		6F46B84E21947950002B5E14 /* AboutPiterBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPiterBody.txt; sourceTree = "<group>"; };
+		6F46B84F21947950002B5E14 /* BestTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BestTitle.txt; sourceTree = "<group>"; };
+		6F46B85021947950002B5E14 /* AboutPartingBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPartingBody.txt; sourceTree = "<group>"; };
+		6F46B85121947950002B5E14 /* AboutAutumnTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAutumnTitle.txt; sourceTree = "<group>"; };
+		6F46B85221947950002B5E14 /* PhilosophTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PhilosophTitle.txt; sourceTree = "<group>"; };
+		6F46B85321947950002B5E14 /* AboutHappinessDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutHappinessDesc.txt; sourceTree = "<group>"; };
+		6F46B85421947950002B5E14 /* AboutLiveDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLiveDesc.txt; sourceTree = "<group>"; };
+		6F46B85521947951002B5E14 /* AboutAlcoholTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAlcoholTitle.txt; sourceTree = "<group>"; };
+		6F46B85621947951002B5E14 /* AboutFriendshipTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutFriendshipTitle.txt; sourceTree = "<group>"; };
+		6F46B85721947951002B5E14 /* AboutFriendshipBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutFriendshipBody.txt; sourceTree = "<group>"; };
+		6F46B85821947951002B5E14 /* AboutLonelinessDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLonelinessDesc.txt; sourceTree = "<group>"; };
+		6F46B85921947951002B5E14 /* AboutPartingDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPartingDesc.txt; sourceTree = "<group>"; };
+		6F46B85A21947951002B5E14 /* AboutRusDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutRusDesc.txt; sourceTree = "<group>"; };
+		6F46B85B21947951002B5E14 /* AboutRusTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutRusTitle.txt; sourceTree = "<group>"; };
+		6F46B85C21947951002B5E14 /* AboutSoulTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSoulTitle.txt; sourceTree = "<group>"; };
+		6F46B85D21947951002B5E14 /* AboutSpringTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSpringTitle.txt; sourceTree = "<group>"; };
+		6F46B85E21947951002B5E14 /* AboutVillageBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutVillageBody.txt; sourceTree = "<group>"; };
+		6F46B85F21947952002B5E14 /* AboutKonstontinovoBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutKonstontinovoBody.txt; sourceTree = "<group>"; };
+		6F46B86021947952002B5E14 /* AboutAlcoholDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAlcoholDesc.txt; sourceTree = "<group>"; };
+		6F46B86121947952002B5E14 /* SadBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SadBody.txt; sourceTree = "<group>"; };
+		6F46B86221947952002B5E14 /* AboutPowerDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPowerDesc.txt; sourceTree = "<group>"; };
+		6F46B86321947952002B5E14 /* AboutMotherDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutMotherDesc.txt; sourceTree = "<group>"; };
+		6F46B86421947952002B5E14 /* AboutNatureBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutNatureBody.txt; sourceTree = "<group>"; };
+		6F46B86521947952002B5E14 /* AboutLonelinessTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLonelinessTitle.txt; sourceTree = "<group>"; };
+		6F46B86621947952002B5E14 /* AboutPiterDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPiterDesc.txt; sourceTree = "<group>"; };
+		6F46B86721947952002B5E14 /* AboutPowerTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPowerTitle.txt; sourceTree = "<group>"; };
+		6F46B86821947953002B5E14 /* AboutRusBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutRusBody.txt; sourceTree = "<group>"; };
+		6F46B86921947953002B5E14 /* AboutHouseTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutHouseTitle.txt; sourceTree = "<group>"; };
+		6F46B86A21947953002B5E14 /* AboutWinterDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutWinterDesc.txt; sourceTree = "<group>"; };
+		6F46B86B21947953002B5E14 /* AboutGotDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutGotDesc.txt; sourceTree = "<group>"; };
+		6F46B86C21947953002B5E14 /* AboutLonelinessBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLonelinessBody.txt; sourceTree = "<group>"; };
+		6F46B86D21947953002B5E14 /* AboutSummerTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSummerTitle.txt; sourceTree = "<group>"; };
+		6F46B86E21947953002B5E14 /* BestBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BestBody.txt; sourceTree = "<group>"; };
+		6F46B86F21947953002B5E14 /* AboutPiterTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutPiterTitle.txt; sourceTree = "<group>"; };
+		6F46B87021947953002B5E14 /* AboutWarBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutWarBody.txt; sourceTree = "<group>"; };
+		6F46B87221947953002B5E14 /* AboutHouseBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutHouseBody.txt; sourceTree = "<group>"; };
+		6F46B87321947954002B5E14 /* AboutAutumnBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAutumnBody.txt; sourceTree = "<group>"; };
+		6F46B87421947954002B5E14 /* AboutNatureDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutNatureDesc.txt; sourceTree = "<group>"; };
+		6F46B87521947954002B5E14 /* AboutLiveTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLiveTitle.txt; sourceTree = "<group>"; };
+		6F46B87621947954002B5E14 /* AboutSoulBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSoulBody.txt; sourceTree = "<group>"; };
+		6F46B87721947954002B5E14 /* AboutVillageTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutVillageTitle.txt; sourceTree = "<group>"; };
+		6F46B87821947954002B5E14 /* BestDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BestDesc.txt; sourceTree = "<group>"; };
+		6F46B87921947954002B5E14 /* AboutAnimalsTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutAnimalsTitle.txt; sourceTree = "<group>"; };
+		6F46B87A21947954002B5E14 /* AboutRyazanDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutRyazanDesc.txt; sourceTree = "<group>"; };
+		6F46B87B21947954002B5E14 /* AboutDeathTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutDeathTitle.txt; sourceTree = "<group>"; };
+		6F46B87C21947954002B5E14 /* HuliganDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HuliganDesc.txt; sourceTree = "<group>"; };
+		6F46B87D21947955002B5E14 /* HuliganTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HuliganTitle.txt; sourceTree = "<group>"; };
+		6F46B87E21947955002B5E14 /* AboutWinterTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutWinterTitle.txt; sourceTree = "<group>"; };
+		6F46B87F21947955002B5E14 /* AboutSadnessTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSadnessTitle.txt; sourceTree = "<group>"; };
+		6F46B88021947955002B5E14 /* AboutSummerBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSummerBody.txt; sourceTree = "<group>"; };
+		6F46B88121947955002B5E14 /* AboutHappinessTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutHappinessTitle.txt; sourceTree = "<group>"; };
+		6F46B88321947955002B5E14 /* PhilosophBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PhilosophBody.txt; sourceTree = "<group>"; };
+		6F46B88421947955002B5E14 /* AboutHouseDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutHouseDesc.txt; sourceTree = "<group>"; };
+		6F46B88521947955002B5E14 /* AboutRyazanTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutRyazanTitle.txt; sourceTree = "<group>"; };
+		6F46B88621947955002B5E14 /* AboutSummerDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSummerDesc.txt; sourceTree = "<group>"; };
+		6F46B88721947955002B5E14 /* AboutKonstontinovoDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutKonstontinovoDesc.txt; sourceTree = "<group>"; };
+		6F46B88821947956002B5E14 /* AboutVillageDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutVillageDesc.txt; sourceTree = "<group>"; };
+		6F46B88921947956002B5E14 /* SadTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SadTitle.txt; sourceTree = "<group>"; };
+		6F46B88A21947956002B5E14 /* AboutLiveBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLiveBody.txt; sourceTree = "<group>"; };
+		6F46B88B21947956002B5E14 /* AboutSoulDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutSoulDesc.txt; sourceTree = "<group>"; };
+		6F46B88C21947956002B5E14 /* AboutNatureTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutNatureTitle.txt; sourceTree = "<group>"; };
+		6F46B88D21947956002B5E14 /* AboutHappinessBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutHappinessBody.txt; sourceTree = "<group>"; };
+		6F46B88E21947956002B5E14 /* AboutGotTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutGotTitle.txt; sourceTree = "<group>"; };
+		6F46B88F21947956002B5E14 /* HuliganBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HuliganBody.txt; sourceTree = "<group>"; };
+		6F46B89021947956002B5E14 /* AboutGotBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutGotBody.txt; sourceTree = "<group>"; };
+		6F7D3DDD217867EF0063A1BE /* ReadFromFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromFile.swift; sourceTree = "<group>"; };
+		6F7D3DE8217872470063A1BE /* AllPoemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPoemsViewController.swift; sourceTree = "<group>"; };
+		6F99A90621A7F41E003D3B9B /* PoemItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemItems.swift; sourceTree = "<group>"; };
+		6FB7DFF4216F6CFD0039E8CC /* Esenin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esenin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB7DFF7216F6CFD0039E8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FB7DFF9216F6CFD0039E8CC /* AllTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTableViewController.swift; sourceTree = "<group>"; };
+		6FB7DFFC216F6CFD0039E8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FB7E004216F6CFF0039E8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FB7E006216F6CFF0039E8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCF2661219563C400BA3D9B /* AboutLoveDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLoveDesc.txt; sourceTree = "<group>"; };
+		6FCF2662219563C500BA3D9B /* AboutLoveBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLoveBody.txt; sourceTree = "<group>"; };
+		6FCF2663219563C500BA3D9B /* AboutLoveTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutLoveTitle.txt; sourceTree = "<group>"; };
+		6FF8675421A3E37800BE8039 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6FFB450D2195CF0E00532344 /* AllTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllTitle.txt; sourceTree = "<group>"; };
+		6FFB450E2195CF0F00532344 /* AllDesc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllDesc.txt; sourceTree = "<group>"; };
+		6FFB450F2195CF0F00532344 /* AllBody.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllBody.txt; sourceTree = "<group>"; };
+		6FFF464D219968C40071A2CF /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		6FFF464F2199757A0071A2CF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB7DFF1216F6CFD0039E8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F2B5B7C217DCC0D00DD225C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F7D3DE8217872470063A1BE /* AllPoemsViewController.swift */,
+				6F2772282186D1B3004F715B /* CategoryViewController.swift */,
+				6F411B0921885AFE003F55C1 /* FavoritesViewController.swift */,
+				6FFF464F2199757A0071A2CF /* SearchViewController.swift */,
+				6F7D3DE021786BF50063A1BE /* TableControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6F7D3DDF21786B370063A1BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F7D3DDD217867EF0063A1BE /* ReadFromFile.swift */,
+				6F99A90621A7F41E003D3B9B /* PoemItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F7D3DE021786BF50063A1BE /* TableControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7DFF9216F6CFD0039E8CC /* AllTableViewController.swift */,
+				6F2B5B87217DEB0300DD225C /* TitleCategoryViewController.swift */,
+				6F2B5B7D217DCC9E00DD225C /* CategoryTableViewController.swift */,
+				6F27722A2186E767004F715B /* FavoritesTableViewController.swift */,
+				6FFF464D219968C40071A2CF /* SearchTableViewController.swift */,
+			);
+			path = TableControllers;
+			sourceTree = "<group>";
+		};
+		6F7D3DE221786C410063A1BE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				6F46B8392194794E002B5E14 /* AboutAlcoholBody.txt */,
+				6F46B86021947952002B5E14 /* AboutAlcoholDesc.txt */,
+				6F46B85521947951002B5E14 /* AboutAlcoholTitle.txt */,
+				6F46B84C21947950002B5E14 /* AboutAnimalsBody.txt */,
+				6F46B8422194794F002B5E14 /* AboutAnimalsDesc.txt */,
+				6F46B87921947954002B5E14 /* AboutAnimalsTitle.txt */,
+				6F46B87321947954002B5E14 /* AboutAutumnBody.txt */,
+				6F46B8472194794F002B5E14 /* AboutAutumnDesc.txt */,
+				6F46B85121947950002B5E14 /* AboutAutumnTitle.txt */,
+				6F46B8382194794E002B5E14 /* AboutDeathBody.txt */,
+				6F46B8412194794F002B5E14 /* AboutDeathDesc.txt */,
+				6F46B87B21947954002B5E14 /* AboutDeathTitle.txt */,
+				6F46B85721947951002B5E14 /* AboutFriendshipBody.txt */,
+				6F46B8372194794D002B5E14 /* AboutFriendshipDesc.txt */,
+				6F46B85621947951002B5E14 /* AboutFriendshipTitle.txt */,
+				6F46B89021947956002B5E14 /* AboutGotBody.txt */,
+				6F46B86B21947953002B5E14 /* AboutGotDesc.txt */,
+				6F46B88E21947956002B5E14 /* AboutGotTitle.txt */,
+				6F46B88D21947956002B5E14 /* AboutHappinessBody.txt */,
+				6F46B85321947950002B5E14 /* AboutHappinessDesc.txt */,
+				6F46B88121947955002B5E14 /* AboutHappinessTitle.txt */,
+				6F46B87221947953002B5E14 /* AboutHouseBody.txt */,
+				6F46B88421947955002B5E14 /* AboutHouseDesc.txt */,
+				6F46B86921947953002B5E14 /* AboutHouseTitle.txt */,
+				6F46B85F21947952002B5E14 /* AboutKonstontinovoBody.txt */,
+				6F46B88721947955002B5E14 /* AboutKonstontinovoDesc.txt */,
+				6F46B8452194794F002B5E14 /* AboutKonstontinovoTitle.txt */,
+				6F46B88A21947956002B5E14 /* AboutLiveBody.txt */,
+				6F46B85421947950002B5E14 /* AboutLiveDesc.txt */,
+				6F46B87521947954002B5E14 /* AboutLiveTitle.txt */,
+				6F46B86C21947953002B5E14 /* AboutLonelinessBody.txt */,
+				6F46B85821947951002B5E14 /* AboutLonelinessDesc.txt */,
+				6F46B86521947952002B5E14 /* AboutLonelinessTitle.txt */,
+				6F46B83F2194794E002B5E14 /* AboutMoskowBody.txt */,
+				6F46B83A2194794E002B5E14 /* AboutMoskowDesc.txt */,
+				6F46B8342194794D002B5E14 /* AboutMoskowTitle.txt */,
+				6F46B83E2194794E002B5E14 /* AboutMotherBody.txt */,
+				6F46B86321947952002B5E14 /* AboutMotherDesc.txt */,
+				6F46B83C2194794E002B5E14 /* AboutMotherTitle.txt */,
+				6F46B86421947952002B5E14 /* AboutNatureBody.txt */,
+				6F46B87421947954002B5E14 /* AboutNatureDesc.txt */,
+				6F46B88C21947956002B5E14 /* AboutNatureTitle.txt */,
+				6F46B85021947950002B5E14 /* AboutPartingBody.txt */,
+				6F46B85921947951002B5E14 /* AboutPartingDesc.txt */,
+				6F46B8482194794F002B5E14 /* AboutPartingTitle.txt */,
+				6F46B84E21947950002B5E14 /* AboutPiterBody.txt */,
+				6F46B86621947952002B5E14 /* AboutPiterDesc.txt */,
+				6F46B86F21947953002B5E14 /* AboutPiterTitle.txt */,
+				6F46B8432194794F002B5E14 /* AboutPowerBody.txt */,
+				6F46B86221947952002B5E14 /* AboutPowerDesc.txt */,
+				6F46B86721947952002B5E14 /* AboutPowerTitle.txt */,
+				6F46B86821947953002B5E14 /* AboutRusBody.txt */,
+				6F46B85A21947951002B5E14 /* AboutRusDesc.txt */,
+				6F46B85B21947951002B5E14 /* AboutRusTitle.txt */,
+				6F46B83D2194794E002B5E14 /* AboutRyazanBody.txt */,
+				6F46B87A21947954002B5E14 /* AboutRyazanDesc.txt */,
+				6F46B88521947955002B5E14 /* AboutRyazanTitle.txt */,
+				6F46B8402194794E002B5E14 /* AboutSadnessBody.txt */,
+				6F46B8492194794F002B5E14 /* AboutSadnessDesc.txt */,
+				6F46B87F21947955002B5E14 /* AboutSadnessTitle.txt */,
+				6F46B87621947954002B5E14 /* AboutSoulBody.txt */,
+				6F46B88B21947956002B5E14 /* AboutSoulDesc.txt */,
+				6F46B85C21947951002B5E14 /* AboutSoulTitle.txt */,
+				6F46B84D21947950002B5E14 /* AboutSpringBody.txt */,
+				6F46B8442194794F002B5E14 /* AboutSpringDesc.txt */,
+				6F46B85D21947951002B5E14 /* AboutSpringTitle.txt */,
+				6F46B88021947955002B5E14 /* AboutSummerBody.txt */,
+				6F46B88621947955002B5E14 /* AboutSummerDesc.txt */,
+				6FCF2662219563C500BA3D9B /* AboutLoveBody.txt */,
+				6FCF2661219563C400BA3D9B /* AboutLoveDesc.txt */,
+				6FCF2663219563C500BA3D9B /* AboutLoveTitle.txt */,
+				6F46B86D21947953002B5E14 /* AboutSummerTitle.txt */,
+				6F46B85E21947951002B5E14 /* AboutVillageBody.txt */,
+				6F46B88821947956002B5E14 /* AboutVillageDesc.txt */,
+				6F46B87721947954002B5E14 /* AboutVillageTitle.txt */,
+				6F46B87021947953002B5E14 /* AboutWarBody.txt */,
+				6F46B84A2194794F002B5E14 /* AboutWarDesc.txt */,
+				6F46B8352194794D002B5E14 /* AboutWarTitle.txt */,
+				6FFB450F2195CF0F00532344 /* AllBody.txt */,
+				6FFB450E2195CF0F00532344 /* AllDesc.txt */,
+				6FFB450D2195CF0E00532344 /* AllTitle.txt */,
+				6F46B8362194794D002B5E14 /* AboutWinterBody.txt */,
+				6F46B86A21947953002B5E14 /* AboutWinterDesc.txt */,
+				6F46B87E21947955002B5E14 /* AboutWinterTitle.txt */,
+				6F46B86E21947953002B5E14 /* BestBody.txt */,
+				6F46B87821947954002B5E14 /* BestDesc.txt */,
+				6F46B84F21947950002B5E14 /* BestTitle.txt */,
+				6F46B88F21947956002B5E14 /* HuliganBody.txt */,
+				6F46B87C21947954002B5E14 /* HuliganDesc.txt */,
+				6F46B87D21947955002B5E14 /* HuliganTitle.txt */,
+				6F46B88321947955002B5E14 /* PhilosophBody.txt */,
+				6F46B84B21947950002B5E14 /* PhilosophDesc.txt */,
+				6F46B85221947950002B5E14 /* PhilosophTitle.txt */,
+				6F46B86121947952002B5E14 /* SadBody.txt */,
+				6F46B8462194794F002B5E14 /* SadDesc.txt */,
+				6F46B88921947956002B5E14 /* SadTitle.txt */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		6F7D3DE321786C7E0063A1BE /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7DFFB216F6CFD0039E8CC /* Main.storyboard */,
+				6FB7E003216F6CFF0039E8CC /* LaunchScreen.storyboard */,
+				6FB7E006216F6CFF0039E8CC /* Info.plist */,
+				6F27722C21873030004F715B /* Esenin.xcdatamodeld */,
+				6F273781219AC9CA004CE0BA /* Media.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		6FB7DFEB216F6CFD0039E8CC = {
+			isa = PBXGroup;
+			children = (
+				6FB7DFF6216F6CFD0039E8CC /* Esenin */,
+				6FB7DFF5216F6CFD0039E8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FB7DFF5216F6CFD0039E8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7DFF4216F6CFD0039E8CC /* Esenin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FB7DFF6216F6CFD0039E8CC /* Esenin */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7DFF7216F6CFD0039E8CC /* AppDelegate.swift */,
+				6F2B5B7C217DCC0D00DD225C /* Controllers */,
+				6F7D3DDF21786B370063A1BE /* Model */,
+				6F7D3DE221786C410063A1BE /* Database */,
+				6FF8675621A3E38500BE8039 /* Singletone */,
+				6F7D3DE321786C7E0063A1BE /* SupportFiles */,
+			);
+			path = Esenin;
+			sourceTree = "<group>";
+		};
+		6FF8675621A3E38500BE8039 /* Singletone */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8675421A3E37800BE8039 /* Constants.swift */,
+			);
+			path = Singletone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FB7DFF3216F6CFD0039E8CC /* Esenin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB7E009216F6CFF0039E8CC /* Build configuration list for PBXNativeTarget "Esenin" */;
+			buildPhases = (
+				6FB7DFF1216F6CFD0039E8CC /* Frameworks */,
+				6FB7DFF0216F6CFD0039E8CC /* Sources */,
+				6FB7DFF2216F6CFD0039E8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Esenin;
+			productName = Esenin;
+			productReference = 6FB7DFF4216F6CFD0039E8CC /* Esenin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FB7DFEC216F6CFD0039E8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = IScom;
+				TargetAttributes = {
+					6FB7DFF3216F6CFD0039E8CC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6FB7DFEF216F6CFD0039E8CC /* Build configuration list for PBXProject "Esenin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FB7DFEB216F6CFD0039E8CC;
+			productRefGroup = 6FB7DFF5216F6CFD0039E8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FB7DFF3216F6CFD0039E8CC /* Esenin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FB7DFF2216F6CFD0039E8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F46B8B321947957002B5E14 /* AboutFriendshipTitle.txt in Resources */,
+				6F46B8B221947957002B5E14 /* AboutAlcoholTitle.txt in Resources */,
+				6F46B8A021947957002B5E14 /* AboutPowerBody.txt in Resources */,
+				6F46B8D521947957002B5E14 /* BestDesc.txt in Resources */,
+				6F46B8B121947957002B5E14 /* AboutLiveDesc.txt in Resources */,
+				6F46B8B421947957002B5E14 /* AboutFriendshipBody.txt in Resources */,
+				6F46B8E921947957002B5E14 /* AboutNatureTitle.txt in Resources */,
+				6F46B8E521947957002B5E14 /* AboutVillageDesc.txt in Resources */,
+				6FB7E005216F6CFF0039E8CC /* LaunchScreen.storyboard in Resources */,
+				6F46B8CA21947957002B5E14 /* AboutSummerTitle.txt in Resources */,
+				6F46B8A821947957002B5E14 /* PhilosophDesc.txt in Resources */,
+				6F46B8B021947957002B5E14 /* AboutHappinessDesc.txt in Resources */,
+				6F46B8D121947957002B5E14 /* AboutNatureDesc.txt in Resources */,
+				6F46B8D321947957002B5E14 /* AboutSoulBody.txt in Resources */,
+				6F46B89421947957002B5E14 /* AboutFriendshipDesc.txt in Resources */,
+				6F46B8A421947957002B5E14 /* AboutAutumnDesc.txt in Resources */,
+				6F46B8AD21947957002B5E14 /* AboutPartingBody.txt in Resources */,
+				6F46B8AF21947957002B5E14 /* PhilosophTitle.txt in Resources */,
+				6F46B89C21947957002B5E14 /* AboutMoskowBody.txt in Resources */,
+				6F46B8C221947957002B5E14 /* AboutLonelinessTitle.txt in Resources */,
+				6F46B8A721947957002B5E14 /* AboutWarDesc.txt in Resources */,
+				6F46B89B21947957002B5E14 /* AboutMotherBody.txt in Resources */,
+				6F46B8CF21947957002B5E14 /* AboutHouseBody.txt in Resources */,
+				6F46B8A221947957002B5E14 /* AboutKonstontinovoTitle.txt in Resources */,
+				6F46B8D821947957002B5E14 /* AboutDeathTitle.txt in Resources */,
+				6F46B8AC21947957002B5E14 /* BestTitle.txt in Resources */,
+				6F46B8C921947957002B5E14 /* AboutLonelinessBody.txt in Resources */,
+				6FFB45112195CF0F00532344 /* AllDesc.txt in Resources */,
+				6F46B8AA21947957002B5E14 /* AboutSpringBody.txt in Resources */,
+				6F46B8A521947957002B5E14 /* AboutPartingTitle.txt in Resources */,
+				6F273782219AC9CA004CE0BA /* Media.xcassets in Resources */,
+				6F46B8C321947957002B5E14 /* AboutPiterDesc.txt in Resources */,
+				6F46B8AE21947957002B5E14 /* AboutAutumnTitle.txt in Resources */,
+				6F46B8E821947957002B5E14 /* AboutSoulDesc.txt in Resources */,
+				6F46B8CC21947957002B5E14 /* AboutPiterTitle.txt in Resources */,
+				6F46B89D21947957002B5E14 /* AboutSadnessBody.txt in Resources */,
+				6F46B89321947957002B5E14 /* AboutWinterBody.txt in Resources */,
+				6F46B8B721947957002B5E14 /* AboutRusDesc.txt in Resources */,
+				6F46B8E321947957002B5E14 /* AboutSummerDesc.txt in Resources */,
+				6F46B8AB21947957002B5E14 /* AboutPiterBody.txt in Resources */,
+				6F46B8C721947957002B5E14 /* AboutWinterDesc.txt in Resources */,
+				6F46B89921947957002B5E14 /* AboutMotherTitle.txt in Resources */,
+				6F46B8E721947957002B5E14 /* AboutLiveBody.txt in Resources */,
+				6F46B8D221947957002B5E14 /* AboutLiveTitle.txt in Resources */,
+				6F46B8DE21947957002B5E14 /* AboutHappinessTitle.txt in Resources */,
+				6F46B89121947957002B5E14 /* AboutMoskowTitle.txt in Resources */,
+				6F46B8BC21947957002B5E14 /* AboutKonstontinovoBody.txt in Resources */,
+				6F46B8E221947957002B5E14 /* AboutRyazanTitle.txt in Resources */,
+				6F46B8D021947957002B5E14 /* AboutAutumnBody.txt in Resources */,
+				6F46B8C821947957002B5E14 /* AboutGotDesc.txt in Resources */,
+				6F46B8B521947957002B5E14 /* AboutLonelinessDesc.txt in Resources */,
+				6F46B8A321947957002B5E14 /* SadDesc.txt in Resources */,
+				6F46B89E21947957002B5E14 /* AboutDeathDesc.txt in Resources */,
+				6FCF2666219563C500BA3D9B /* AboutLoveTitle.txt in Resources */,
+				6FCF2664219563C500BA3D9B /* AboutLoveDesc.txt in Resources */,
+				6F46B8ED21947957002B5E14 /* AboutGotBody.txt in Resources */,
+				6F46B8BF21947957002B5E14 /* AboutPowerDesc.txt in Resources */,
+				6F46B89F21947957002B5E14 /* AboutAnimalsDesc.txt in Resources */,
+				6F46B8E021947957002B5E14 /* PhilosophBody.txt in Resources */,
+				6F46B8BA21947957002B5E14 /* AboutSpringTitle.txt in Resources */,
+				6F46B8A921947957002B5E14 /* AboutAnimalsBody.txt in Resources */,
+				6F46B8A121947957002B5E14 /* AboutSpringDesc.txt in Resources */,
+				6F46B8CD21947957002B5E14 /* AboutWarBody.txt in Resources */,
+				6F46B8DD21947957002B5E14 /* AboutSummerBody.txt in Resources */,
+				6FCF2665219563C500BA3D9B /* AboutLoveBody.txt in Resources */,
+				6F46B8BB21947957002B5E14 /* AboutVillageBody.txt in Resources */,
+				6F46B8DA21947957002B5E14 /* HuliganTitle.txt in Resources */,
+				6F46B8CB21947957002B5E14 /* BestBody.txt in Resources */,
+				6F46B8A621947957002B5E14 /* AboutSadnessDesc.txt in Resources */,
+				6F46B8C021947957002B5E14 /* AboutMotherDesc.txt in Resources */,
+				6F46B8C521947957002B5E14 /* AboutRusBody.txt in Resources */,
+				6F46B8EA21947957002B5E14 /* AboutHappinessBody.txt in Resources */,
+				6F46B8EC21947957002B5E14 /* HuliganBody.txt in Resources */,
+				6FFB45122195CF0F00532344 /* AllBody.txt in Resources */,
+				6F46B8BD21947957002B5E14 /* AboutAlcoholDesc.txt in Resources */,
+				6F46B89221947957002B5E14 /* AboutWarTitle.txt in Resources */,
+				6F46B8D721947957002B5E14 /* AboutRyazanDesc.txt in Resources */,
+				6F46B8C421947957002B5E14 /* AboutPowerTitle.txt in Resources */,
+				6F46B8B921947957002B5E14 /* AboutSoulTitle.txt in Resources */,
+				6F46B8B821947957002B5E14 /* AboutRusTitle.txt in Resources */,
+				6FB7DFFD216F6CFD0039E8CC /* Main.storyboard in Resources */,
+				6F46B8EB21947957002B5E14 /* AboutGotTitle.txt in Resources */,
+				6F46B8BE21947957002B5E14 /* SadBody.txt in Resources */,
+				6F46B89721947957002B5E14 /* AboutMoskowDesc.txt in Resources */,
+				6F46B8D621947957002B5E14 /* AboutAnimalsTitle.txt in Resources */,
+				6F46B8E621947957002B5E14 /* SadTitle.txt in Resources */,
+				6F46B8C121947957002B5E14 /* AboutNatureBody.txt in Resources */,
+				6F46B89A21947957002B5E14 /* AboutRyazanBody.txt in Resources */,
+				6F46B8E121947957002B5E14 /* AboutHouseDesc.txt in Resources */,
+				6F46B8C621947957002B5E14 /* AboutHouseTitle.txt in Resources */,
+				6FFB45102195CF0F00532344 /* AllTitle.txt in Resources */,
+				6F46B8DC21947957002B5E14 /* AboutSadnessTitle.txt in Resources */,
+				6F46B8E421947957002B5E14 /* AboutKonstontinovoDesc.txt in Resources */,
+				6F46B8D421947957002B5E14 /* AboutVillageTitle.txt in Resources */,
+				6F46B89521947957002B5E14 /* AboutDeathBody.txt in Resources */,
+				6F46B89621947957002B5E14 /* AboutAlcoholBody.txt in Resources */,
+				6F46B8D921947957002B5E14 /* HuliganDesc.txt in Resources */,
+				6F46B8DB21947957002B5E14 /* AboutWinterTitle.txt in Resources */,
+				6F46B8B621947957002B5E14 /* AboutPartingDesc.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FB7DFF0216F6CFD0039E8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7D3DE9217872470063A1BE /* AllPoemsViewController.swift in Sources */,
+				6F2772292186D1B3004F715B /* CategoryViewController.swift in Sources */,
+				6F7D3DDE217867EF0063A1BE /* ReadFromFile.swift in Sources */,
+				6F27722B2186E767004F715B /* FavoritesTableViewController.swift in Sources */,
+				6FB7DFFA216F6CFD0039E8CC /* AllTableViewController.swift in Sources */,
+				6F2B5B7E217DCC9E00DD225C /* CategoryTableViewController.swift in Sources */,
+				6FFF46502199757A0071A2CF /* SearchViewController.swift in Sources */,
+				6FF8675521A3E37800BE8039 /* Constants.swift in Sources */,
+				6F27722E21873030004F715B /* Esenin.xcdatamodeld in Sources */,
+				6FB7DFF8216F6CFD0039E8CC /* AppDelegate.swift in Sources */,
+				6FFF464E219968C40071A2CF /* SearchTableViewController.swift in Sources */,
+				6F411B0A21885AFE003F55C1 /* FavoritesViewController.swift in Sources */,
+				6F2B5B88217DEB0300DD225C /* TitleCategoryViewController.swift in Sources */,
+				6F99A90721A7F41E003D3B9B /* PoemItems.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FB7DFFB216F6CFD0039E8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB7DFFC216F6CFD0039E8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FB7E003216F6CFF0039E8CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB7E004216F6CFF0039E8CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FB7E007216F6CFF0039E8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FB7E008216F6CFF0039E8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB7E00A216F6CFF0039E8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKQ739XA;
+				INFOPLIST_FILE = "$(SRCROOT)/Esenin/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iscom.Esenin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6FB7E00B216F6CFF0039E8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKQ739XA;
+				INFOPLIST_FILE = "$(SRCROOT)/Esenin/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iscom.Esenin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FB7DFEF216F6CFD0039E8CC /* Build configuration list for PBXProject "Esenin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7E007216F6CFF0039E8CC /* Debug */,
+				6FB7E008216F6CFF0039E8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB7E009216F6CFF0039E8CC /* Build configuration list for PBXNativeTarget "Esenin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7E00A216F6CFF0039E8CC /* Debug */,
+				6FB7E00B216F6CFF0039E8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F27722C21873030004F715B /* Esenin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F27722D21873030004F715B /* Esenin.xcdatamodel */,
+			);
+			currentVersion = 6F27722D21873030004F715B /* Esenin.xcdatamodel */;
+			path = Esenin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FB7DFEC216F6CFD0039E8CC /* Project object */;
+}
